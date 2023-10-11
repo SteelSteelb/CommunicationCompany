@@ -16,13 +16,15 @@ using System.Windows.Shapes;
 namespace CommunicationCompany
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для ClientPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ClientPage : Page
     {
-        public MainWindow()
+        
+        public ClientPage() 
         {
             InitializeComponent();
+            NameTB.Text = App.connection.Authorization.First().Name;
         }
     }
 }

@@ -4,6 +4,17 @@
              xmlns:local="clr-namespace:CommunicationCompany"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#BDD9BF"></Setter>
+            <Setter Property="Foreground" Value="#2E4052"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#2E4052"></Setter>
+        </Style>
+        <Style TargetType="Grid">
+            <Setter Property="Background" Value="#FFFFFF"></Setter>
+        </Style>
     </Application.Resources>
 </Application>
